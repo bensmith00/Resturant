@@ -1,3 +1,19 @@
+/* white #c9c1ac */
+/* red #d3325f */
+
+.info {
+    background: #c9c1ac;
+}
+
+
 body {
     font-family: 'Sarabun', sans-serif;
+}
+
+.primary-color {
+    color: #d3325f;
+}
+
+info h2 {
+    word-spacing: 0.6rem;
 }
