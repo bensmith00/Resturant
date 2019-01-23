@@ -25,3 +25,14 @@
 .info a:hover {
     color: #242424;
 }
+
+/* ################### header ################### */ 
+
+#header {
+    min-height: calc(100vh - 94px);
+    background: url(../img/art-asia-balloon-1455962.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
