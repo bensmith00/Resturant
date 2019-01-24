@@ -47,6 +47,25 @@
 .banner h1 {
     border-top: 6px dotted #c9c1ac;
     border-bottom: 6px dotted #c9c1ac;
+    animation: fromLeft;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fromLeft {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 .main-btn {
@@ -62,6 +81,28 @@
     background: #c9c1ac;
 }
 
+.sushi-btn {
+    animation: fromRight;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fromRight {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(-5px);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 .header-link {
     display: inline-block;
     position: absolute;
@@ -75,5 +116,4 @@
 .header-link:hover {
     color: #242424;
 }
-
 
