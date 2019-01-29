@@ -9,6 +9,7 @@
 .body {
     font-family: 'Sarabun', sans-serif;
     color: #c9c1ac;
+    background: url(../img/)
 }
 
 .primary-color {
@@ -131,4 +132,6 @@
         transform: translateY(-10px);
     }
 }
+
+/* ############### menu items ################# */
 
