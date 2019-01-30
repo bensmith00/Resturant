@@ -143,6 +143,11 @@ body {
     transition: all 2s ease;
 }
 
+.item-container:hover {
+    outline: 10px solid #d3325f;
+    outline-offset: 0.8rem;
+}
+
 .item-img {
     transition: all 2s ease;
 }
