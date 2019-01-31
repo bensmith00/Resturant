@@ -180,3 +180,9 @@ body {
     background: #c9c1ac;
     color: #242424;
 }
+
+/*#################### menu ##################*/
+
+#menu {
+    background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(../img/art-asia-balloon-1455962.jpg)center/cover fixed no-repeat;
+}
