@@ -179,6 +179,32 @@ body {
     transform: rotate(10deg);
 }
 
+.toggler-btn {
+    border: 2px solid #d3325f;
+    padding: 5px;
+    transition: all 2s ease;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    background: #d3325f;
+    transition: all 0.5s ease;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;;
+}
+
+.change .bar3 {
+    transform: rotate(45deg) translate(-5px, -8px);
+}
+
 /* ############### menu items ################# */
 
 .item-container {
