@@ -1,4 +1,13 @@
 $(document).ready(function(){
+
+
+    // navbar button toggle
+    $('.navbar-toggler').click(function() {
+        $('.navbar-toggler').toggleClass('change')
+
+    })
+
+    // ripple in header
     $("#header, .info").ripples({
         dropRadius: 20,
         perturbance: 0.0005,
